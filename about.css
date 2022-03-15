@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+.col-md-12{
+    padding: 30px 100px 30px 100px;
+}
+#topic{
+    font-family:  'Bebas Neue', cursive;
+    text-align: center;
+    font-weight: bolder;
+    font-weight: 400;
+    font-size: 70px;
+    text-align: center;
+    margin: 30px auto;
+    color: black;
+    position: relative;
+    
+}
+#topic:before {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #000;
+    left: 0;
+    top: 50%;
+    position: absolute;
+    margin-left:25vw;
+  }
+  
+  #topic:after {
+    content: "";
+    display: block;
+    width: 120px;
+    height: 5px;
+    background: #000;
+    right: 0;
+    top: 50%;
+    position: absolute;
+    margin-right: 25vw;
+  }
+.design{
+    font-size: 70px;
+    line-height: 0.5;
+    font-family:  'Bebas Neue', cursive;
+    text-align: right;
+    letter-spacing: 8px;
+}
+#qoute{
+    padding-top: 1.2em;
+}
+.lower-design{
+    font-size: 60px;
+    line-height: 0.75;
+    font-family:  'Bebas Neue', cursive;
+}
+#intro{
+    padding-right: 12%;
+    padding-left: 12%;
+}
+.we{
+    padding-right: 18%;
+}
+#passion, #experience{
+    color: red;
+}
+#who{
+    color: red;
+    font-family:  'Bebas Neue', cursive;
+    font-size: 40px;
+    
+}
+#intro2{
+
+    padding-left: 16%;
+}
+#howdy{
+    color: red;
+    font-style: italic;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.col-md-12,.col-md-8,.col-md-4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #topic:before{
+        margin-left: 12vw;
+        width: 50px;
+    }
+    #topic:after{
+        margin-right: 12vw;
+        width: 50px;
+    }
+    #topic{
+        font-size: 40px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+#topic:before{
+    margin-left: 12vw;
+}
+#topic:after{
+    margin-right: 12vw;
+}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #topic:before{
+        margin-left: 25vw;
+    }
+    #topic:after{
+        margin-right: 25vw;
+    }
+}
