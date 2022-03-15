@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    
+}
+.upper-header{
+    height: 120vh;
+    background: url('https://images.unsplash.com/photo-1647117181799-0ac3e50a548a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.info{
+    color: white;
+    position: absolute;
+    right:1.5em;
+    top: 1.2em;
+}
+.text{
+    color: white;
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 110vh;
+}
+.lower-header{
+    height:20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    font-size: 28px;
+}
+@media (max-width: 768px){
+    /*------------------------ mobile background---------------- */
+    .upper-header{
+
+        background: url('https://images.unsplash.com/photo-1647034166469-22eac250676a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+h3 {
+    font-size: 20px;
+}
+}
+@media only screen and (max-width: 600px) {
+    h3{
+        font-size: 18px;
+    }
+}

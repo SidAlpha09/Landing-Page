@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.15;
+    font-family: 'Poppins', sans-serif;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+span{
+    margin-top: 15px;
+}
+
+.cancel{
+    height: 38px;
+    width: 38px;
+    margin: 10px 25px 10px 0;
+    float: right;
+
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.con{
+    width:30px;
+}
+
+.store{
+    margin-top: 25vh;
+}
+.info-section{
+    margin-top:15vh;
+    margin-bottom: 15vh;
+}
+.end{
+    opacity: 0.5;
+}
+button{
+    margin: 1.5em 0 1.5em 0;
+    padding: 10px 15px 10px 15px;
+    background: transparent;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 5px 4px 10px -3px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 5px 4px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 5px 4px 10px -3px rgba(0,0,0,0.75);
+    cursor: pointer;
+}
+@media (max-width:768px){
+    .cancel{
+        height: 20px;
+        width: 20px;
+    }
+    .store{
+        margin-top: 18vh;
+    }
+    .phone{
+        margin-left: 30px;
+    }
+    .info-section{
+        margin-top: 10vh;
+        margin-bottom: 9vh;
+    }
+}
