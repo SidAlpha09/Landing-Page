@@ -27,7 +27,9 @@ body {
   background-color: white;
   border-radius: 10px;
   margin-top: -3em;
-  z-index: 2;
+  position:relative;
+  top: -3vh;
+  
   
 }
 
@@ -59,6 +61,7 @@ body {
 
 .image-item:is(:hover, :focus) img {
   transform: scale(1.03);
+  
 }
 
 
@@ -71,6 +74,8 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  top: 0;
+  
   /* z-index: -1; */
 }
 .info{
@@ -111,6 +116,7 @@ nav{
   height: 80px;
   width: 100%;
   color: white;
+ 
   /* backdrop-filter: blur(4px); */
   
 }
@@ -121,6 +127,7 @@ nav ul{
   margin-right: 20px;
   /* backdrop-filter: blur(3px); */
   padding: 30px 0 30px 0;
+  
   
   /* font-weight: 400; */
   
@@ -142,6 +149,7 @@ a{
   margin-right: 40px;
   cursor: pointer;
   display: none;
+  
 }
 #check{
   display: none;
@@ -199,6 +207,7 @@ nav ul li a:hover{
       text-align: center;
       transition: all .5s;
       margin-top: 70px;
+      
   }
   nav ul li{
       display: block;
@@ -211,6 +220,7 @@ nav ul li a:hover{
   }
   #check:checked ~ ul{
       left: 0;
+     
       
    
   }
