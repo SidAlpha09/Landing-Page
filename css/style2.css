@@ -174,7 +174,7 @@ nav ul li a:hover{
   margin-bottom: 50px;
 }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 680px) {
   #logo{
       transform: rotate(90deg);
       width: 10%;
@@ -182,6 +182,13 @@ nav ul li a:hover{
   h3{
       font-size: 18px;
   }
+  .container{
+    top: 10vh;
+  }
+  .upper-header{
+    height: 75vh;
+  }
+  
 }
 @media(max-width:952px){
   nav ul li {
@@ -224,7 +231,12 @@ nav ul li a:hover{
       
    
   }
-  
+  .container{
+    top: 10vh;
+  }
+  .upper-header{
+    height: 65vh;
+  }
   
 }
 @media only screen and (min-width: 992px) {
