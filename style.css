@@ -34,6 +34,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 1.25em;
 }
 h3{
     font-size: 23px;
@@ -89,21 +90,54 @@ a{
 nav ul li a:hover{
     color: rgb(177, 177, 177);
 }
-img{
-    height: 100px;
-    width: 200px;
+#img{
+    height: 90px;
+    width: 180px;
+}
+
+
+
+/* --------------lower header--------------- */
+.lower-header{
+    margin-top: 1.5em;
 }
 .logos{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+    height: 200px;
+}
+
+        /* ----------------image gallery-------------- */
+        
+.upper-banner{
+    background: url('https://www.studiokelly.in/images/pre_wedding_banner.jpg');
+    height: 70vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+}
+.gallery{
     display: grid;
-    grid-template-columns: repeat(4,300px);
-    margin-top: 20vh;
-    padding:10px 30px;
-    
+    grid-template-columns: repeat(auto-fit , minmax(250px,1fr));
+    grid-gap: 30px;
 }
-.ndtv{
-    height: 100px;
-    width: 100px;
+.gallery img{
+    width: 100%;
+    /* border: 2px solid red; */
+   
 }
+
 /* ------------media queries-------------- */
 @media (max-width: 768px){
     /*------------------------ mobile background---------------- */
@@ -120,7 +154,10 @@ img{
 }
 }
 @media only screen and (max-width: 600px) {
-    
+    #logo{
+        transform: rotate(90deg);
+        width: 10%;
+    }
     h3{
         font-size: 18px;
     }
@@ -131,7 +168,10 @@ img{
     }
 }
 @media(max-width:858px){
-  
+    #logo{
+        transform: rotate(90deg);
+        width: 10%;
+    }
     .checkbtn{
         display: block;
         

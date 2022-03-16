@@ -4,6 +4,9 @@
 .col-md-12{
     padding: 30px 100px 30px 100px;
 }
+body{
+    background: gray;
+}
 #topic{
     font-family:  'Bebas Neue', cursive;
     text-align: center;
@@ -100,7 +103,14 @@
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-
+@media only screen and (max-width: 480px){
+    #topic:before{
+        margin-left: 15vw;
+    }
+    #topic:after{
+        margin-right: 15vw;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
@@ -111,12 +121,20 @@
     margin-right: 12vw;
 }
 }
+@media only screen and (min-width:992px){
+    #topic:before{
+        margin-left: 21vw;
+    }
+    #topic:after{
+        margin-right: 21vw;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1280px) {
     #topic:before{
         margin-left: 25vw;
     }
