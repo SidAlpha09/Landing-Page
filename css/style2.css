@@ -70,7 +70,7 @@ body {
 .upper-header{
   height: 60vh;
   width: 100%;
-  background: url('https://images.unsplash.com/photo-1647117181799-0ac3e50a548a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+  background: url('https://www.studiokelly.in/images/pre_wedding_banner.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
@@ -78,6 +78,7 @@ body {
   
   /* z-index: -1; */
 }
+
 .info{
   color: white;
   position: absolute;
@@ -137,10 +138,11 @@ nav ul li{
   line-height: 80px;
   margin: 0 50px;
 }
-a{
+a {
   text-decoration: none;
   color: white;
 }
+
 .checkbtn{
   font-size: 30px;
   color: white;
@@ -251,10 +253,6 @@ nav ul li a:hover{
       left: 35vw;
   } 
 }
-
-
-
-
 
 
 
