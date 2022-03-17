@@ -196,6 +196,47 @@ nav ul li a:hover{
   nav ul li {
       font-size: 16px;
   }
+  #logo{
+    transform: rotate(90deg);
+    width: 10%;
+}
+.checkbtn{
+    display: block;
+    
+
+}
+ul{
+    backdrop-filter: blur(3px);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+    margin-top: 70px;
+    
+}
+nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+
+}
+nav ul li a{
+    font-size: 20px;
+}
+#check:checked ~ ul{
+    left: 0;
+   
+    
+ 
+}
+.container{
+  top: 10vh;
+}
+.upper-header{
+  height: 65vh;
+}
 }
 @media(max-width:858px){
   #logo{
@@ -253,7 +294,11 @@ nav ul li a:hover{
       left: 35vw;
   } 
 }
-
+@media (max-width:600){
+  .container{
+    max-width: 1000px;
+  }
+}
 
 
 
