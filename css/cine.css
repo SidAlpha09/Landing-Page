@@ -25,7 +25,7 @@ body {
   /* border: 2px solid red; */
   padding: 20px 20px 20px 20px;
   background-color: white;
-  border-radius: 10px;
+  border-radius: 5px;
   margin-top: -3em;
   position:relative;
   top: -3vh;
@@ -192,11 +192,14 @@ nav ul li a:hover{
   }
   
 }
+
 @media(max-width:952px){
   nav ul li {
       font-size: 16px;
   }
+  
 }
+
 @media(max-width:858px){
   #logo{
       transform: rotate(90deg);
@@ -204,6 +207,7 @@ nav ul li a:hover{
   }
   .checkbtn{
       display: block;
+
       
   
   }
@@ -225,7 +229,9 @@ nav ul li a:hover{
 
 
   }
+
   nav ul li a{
+    
       font-size: 25px;
       font-weight: 600;
   }
@@ -235,6 +241,7 @@ nav ul li a:hover{
       
    
   }
+  
   .container{
     top: 10vh;
   }
