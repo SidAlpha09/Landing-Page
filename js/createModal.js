@@ -105,8 +105,8 @@ export default function createModal(){
      
       .modal__btn svg {
         pointer-events: none;
-        width: 2rem;
-        height: 2rem;
+        width: 1rem;
+        height: 1rem;
         transition: transform 250ms cubic-bezier(0.9, 0, 0, 0.96);
       }
       .modal__btn:is(:hover,:focus) svg {
@@ -117,7 +117,7 @@ export default function createModal(){
         order: -1;
         display: flex;
         justify-content: center;
-        gap: 1rem;
+        gap: 0.5rem;
       }
       
       .modal__indicator {

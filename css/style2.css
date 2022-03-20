@@ -23,7 +23,7 @@ body {
   max-width: 1200px;
   margin: auto;
   /* border: 2px solid red; */
-  padding: 20px 20px 20px 20px;
+  padding: 25px 50px 25px 50px;
   background-color: white;
   border-radius: 10px;
   margin-top: -3em;
@@ -49,6 +49,7 @@ body {
   
  
 }
+
 
 .image-item img {
   width: 100%;
@@ -140,7 +141,7 @@ nav ul li{
 }
 a {
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .checkbtn{
@@ -174,6 +175,10 @@ nav ul li a:hover{
   font-size: 20px;
   text-align: center !important;
   margin-bottom: 50px;
+}
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
 }
 }
 @media only screen and (max-width: 680px) {
@@ -293,6 +298,7 @@ nav ul li a{
       position: absolute;
       left: 35vw;
   } 
+  
 }
 @media (max-width:600){
   .container{
