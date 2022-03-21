@@ -117,7 +117,7 @@ body{
     .text{
         position: absolute;
         top:110vh;
-        right: 3%;
+        right: 20vw;
         font-size: 10px;
         color: white;
     }
