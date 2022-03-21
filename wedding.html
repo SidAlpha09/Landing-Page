@@ -4,30 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <!-- <link rel="stylesheet" href="./css/style2.css"> -->
-    <link rel="stylesheet" href="./css/cine.css">
+    <link rel="stylesheet" href="./Wedding/css/wedding.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
-    <title>Cinematography</title>
+    <title>Wedding</title>
 </head>
 <body>
-    <div class="upper-header cine">
+    <!-- ----------------image gallery---------------- -->
+    
+    <div class="upper-header">
         <nav>
           <input type="checkbox" id="check" />
           <label for="check" class="checkbtn">
             <i class="fa fa-bars"></i>
           </label>
           <ul>
-            <li><a class="cine-nav" href="./index.html">Home</a></li>
-            <li><a class="cine-nav" href="./about.html">About</a></li>
-            <li><a class="cine-nav" href="./gallery.html">Pre-Wedding</a></li>
-            <li><a class="cine-nav" href="./wedding.html">Wedding</a></li>
-            <li><a class="cine-nav" href="./cinematography.html">Cinematography</a></li>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./about.html">About</a></li>
+            <li><a href="./gallery.html">Pre-Wedding</a></li>
+            <li><a href="./wedding.html">Wedding</a></li>
+            <li><a href="./cinematography.html">Cinematography</a></li>
+            <li><a href="./information.html">Contact Us</a></li>
           </ul>
         </nav>
+        <div class="slide-effect">
+          <div class="slide-right1"></div>
+          <div class="slide-2"></div>
+          <div class="slide-up3"></div>
+        </div>
        </div>
        
       </div>
@@ -35,16 +41,20 @@
           <div class="image-container">
             <button class="image-item" data-modal="true" data-gallery="Food" aria-label="Open Food image gallery">
               <img src="./images/food/food-1--sm.jpg" alt="Food">
-            
+              
+              
             </button>
             <button class="image-item" data-modal="true" data-gallery="Mountains" aria-label="Open Mountains image gallery">
               <img src="./images/mountains/mountain-1--sm.jpg" alt="Mountains">
+              
             </button>
             <button class="image-item" data-modal="true" data-gallery="Plants" aria-label="Open Plants image gallery">
               <img src="./images/plants/plant-1--sm.jpg" alt="Plant">
+              
             </button>
             <button class="image-item" data-modal="true" data-gallery="Plants" aria-label="Open Plants image gallery">
               <img src="./images/plants/plant-1--sm.jpg" alt="Plant">
+              
             </button>
             <button class="image-item" data-modal="true" data-gallery="Plants" aria-label="Open Plants image gallery">
               <img src="./images/plants/plant-1--sm.jpg" alt="Plant">
@@ -64,11 +74,10 @@
           </div>
         </div>
         <script type="module">
-          import initGallery from "./js/galleryApp.js";
-          initGallery('./data/galleries.json', {
+          import initGallery from "./Wedding/js/galleryApp.js";
+          initGallery('./Wedding/data/WeddingGalleries.json', {
             speed: 600,
           })
         </script>
-      
 </body>
 </html>
