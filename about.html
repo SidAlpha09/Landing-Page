@@ -31,7 +31,7 @@
         </nav>
     </div>
 </div>
-    <div class="container mt-5">
+    <div class="container mt-2">
         <h1 id="topic">ABOUT US</h1>
     <div class="row">
         <div class="col-md-12 "><div id="intro"> <span id="howdy">Howdy and Welcome</span> ipsum dolor sit amet consectetur adipisicing elit. Accusantium, quasi quaerat? Assumenda magnam distinctio reiciendis numquam, harum ut. Animi labore quam quis illum et excepturi illo laboriosam eos quasi minus dolorum, velit, repellendus, harum corrupti hic cum delectus facere officia. Numquam sit explicabo at. Laboriosam veniam optio debitis aut quo cupiditate.</div></div>
@@ -49,5 +49,14 @@
       </div>
       <br>
     </div>
+    
+    <script>
+      const hamburger=document.getElementById('hamburger')
+      const navUL=document.getElementById('nav-ul')
+
+      hamburger.addEventListener('click',()=>{
+          navUL.classList.toggle('show');
+      })
+  </script>
 </body>
 </html>
