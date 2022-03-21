@@ -15,29 +15,33 @@
     <title>Home</title>
   </head>
   <body>
-    <div class="upper-header">
-      <nav>
-        <input type="checkbox" id="check" />
-        <label for="check" class="checkbtn">
-          <i class="fa fa-bars"></i>
-        </label>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./gallery.html">Pre-Wedding</a></li>
-          <li><a href="#">Wedding</a></li>
-          <li><a href="./cinematography.html">Cinematography</a></li>
-        </ul>
-      </nav>
+    <div class="header">
+      <div class="container">
+          <nav>
+              <button class="hamburger" id="hamburger">
+                  <i class="fa fa-bars"></i>
+              </button>
+              <ul class="nav-ul" id="nav-ul">
+                  <li><a href="./index.html">HOME</a></li>
+                  <li><a href="./about.html">ABOUT</a></li>
+                  <li><a href="./gallery.html">PRE-WEDDING</a></li>
+                  <li><a href="">WEDDING</a></li>
+                  <li><a href="./cinematography.html">CINEMATOGRAPHY</a></li>
+                  <li><a href="">CONTACT US</a></li>
+              </ul>
+          </nav>
+      </div>
+  </div>
       <div class="text">
         <h3>Lorem ipsum dolor sit amet consectetur.</h3>
       </div>
-    </div>
+    
 
     <!-- ------------lower header-------------- -->
     <div class="lower-header">
+      <img class="main-logo" src="https://www.sabyasachi.com/images/logo.png" alt="">
       <div class="heading">
-        <span>FEATURED IN</span>
+        <h3>FEATURED IN</h3>
       </div>
       <div class="logos">
         <img id="logo" src="./assets/features.jpeg" alt="" >
@@ -45,6 +49,14 @@
     </div>
 
    
+    <script>
+      const hamburger=document.getElementById('hamburger')
+      const navUL=document.getElementById('nav-ul')
+
+      hamburger.addEventListener('click',()=>{
+          navUL.classList.toggle('show');
+      })
+  </script>
     
   </body>
 </html>
