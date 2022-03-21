@@ -142,3 +142,88 @@ body{
         margin-right: 25vw;
     }
 }
+/* .header{
+    /* background: url('https://weddingasia-backend-static-file-rest-api.s3.amazonaws.com/media/slider/EVENTS/desktop-images/desktop_image_view.png'); */
+    /* background-size: cover; */
+    /* height: 120vh; */
+/* }  */
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: space-around;
+    /* padding: 2.5em ; */
+    /* background-color: gray; */
+
+}
+.nav-ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 3em;
+    list-style: none;
+}
+.nav-ul li a{
+    display: inline-block;
+    color: black;
+    /* background-color: gray; */
+    font-family: Nunito, sans-serif !important;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.hamburger{
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    display: none;
+}
+.hamburger:focus{
+    outline: none;
+}
+.text{
+    position: absolute;
+    top:110vh;
+    right: 38%;
+    color: white;
+}
+@media screen and (max-width:767px) {
+    .nav-ul{
+        display: none;
+        width: 75%;
+        flex-direction: column;
+        /* font-size: 18px; */
+    }
+    .nav-ul li{
+        font-size: 22px;
+    }
+    .nav-ul.show{
+        display: flex;
+        transition: all 0.5s;
+        /* background-color: white; */
+
+    }
+    .hamburger{
+        display: block;
+        padding-top: 2em;
+        margin: 0 1.5em 1.5em 2em;
+    }
+    /* .main-logo{
+        width:250px;
+        margin-left: 14%;
+    }
+    #logo{
+        height: 101px;
+    }
+    .text{
+        position: absolute;
+        top:110vh;
+        right: 3%;
+        font-size: 10px;
+        color: white;
+    } */
+   
+}

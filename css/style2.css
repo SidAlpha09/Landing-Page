@@ -163,6 +163,43 @@ nav ul li a:hover{
 #img{
   height: 90px;
   width: 180px;}
+
+  .slide-effect{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+  }
+  .slide-right1,.slide-right2,.slide-right3{
+    position: relative;
+    opacity: 0;
+    font-size: 35px;
+  }
+  .slide-right1{
+    left: -40px;
+    top: 5px;
+    animation: slide-right ease .4s forwards .6s;
+  }
+  .slide-right2{
+    left: -40px;
+    top: 15px;
+    animation: slide-right ease .4s forwards .6s;
+  }
+  .slide-right3{
+    left: -40px;
+    top: 25px;
+    animation: slide-right ease .4s forwards .6s;
+  }
+  @keyframes slide-right{
+    0%{transform: translateX(0);}
+    100%{
+      transform: translateX(40px);opacity: 1;;
+    }
+  }
   @media (max-width: 768px){
   /*------------------------ mobile background---------------- */
   .upper-header{
@@ -212,6 +249,7 @@ nav ul li a:hover{
 }
 ul{
     backdrop-filter: blur(3px);
+    background-color: white;
     position: fixed;
     width: 100%;
     height: 100vh;
