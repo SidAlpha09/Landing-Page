@@ -357,6 +357,10 @@ nav ul li a{
   nav ul li{
     margin: 0 80px;
   }
+  .container{
+    max-width: 1500px;
+    padding: 50px 200px 50px 200px;
+  }
 }
 
 

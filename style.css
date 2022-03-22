@@ -53,13 +53,20 @@ body{
     outline: none;
 }
 .text{
-    position: absolute;
-    top:110vh;
-    right: 38%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5em;
     color: white;
+    
 }
 .lower-header{
-    margin-top: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    margin-top: 3.5em;
 }
 .logos{
     display: flex;
@@ -76,7 +83,7 @@ body{
 }
 .main-logo{
     width:300px;
-    margin-left: 40%;
+    
 }
    
 @media screen and (max-width:767px) {
