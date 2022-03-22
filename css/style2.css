@@ -127,7 +127,7 @@ nav ul{
   list-style: none;
   font-size: 1.3rem;
   float: right;
-  margin-right: 200px;
+  margin-right: 180px;
   /* backdrop-filter: blur(3px); */
   padding: 30px 0 30px 0;
   
@@ -354,6 +354,11 @@ nav ul li a{
   }
 }
 
+@media screen and (min-width:1750px){
+  nav ul li{
+    margin: 0 80px;
+  }
+}
 
 
 

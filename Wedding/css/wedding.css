@@ -353,6 +353,11 @@ nav ul li a{
     line-height: 10px;
   }
 }
+@media screen and (min-width:1750px){
+  nav ul li{
+    margin: 0 80px;
+  }
+}
 
 
 
