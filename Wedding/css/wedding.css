@@ -145,16 +145,16 @@ a {
   color: black;
   font-family: Nunito, sans-serif !important;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   text-transform: uppercase;
 }
 
 .checkbtn{
   font-size: 30px;
   color: white;
-  float: right;
+  float: left;
   line-height: 80px;
-  margin-right: 40px;
+  margin-left: 40px;
   cursor: pointer;
   display: none;
   
@@ -355,7 +355,7 @@ nav ul li a{
 }
 @media screen and (min-width:1750px){
   nav ul li{
-    margin: 0 80px;
+    margin: 0 80.25px;
   }
   .container{
     max-width: 1500px;
