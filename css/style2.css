@@ -252,8 +252,8 @@ nav ul li a:hover{
 
 }
 ul{
-    backdrop-filter: blur(3px);
-    background-color: white;
+    /* backdrop-filter: blur(3px); */
+    /* background-color: white; */
     position: fixed;
     width: 100%;
     height: 100vh;
@@ -296,11 +296,12 @@ nav ul li a{
   
   }
   ul{
-      backdrop-filter: blur(3px);
+      /* backdrop-filter: blur(3px); */
       position: fixed;
       width: 100%;
       height: 100vh;
-      left: -100%;
+      /* left: -100%; */
+      display: none;
       text-align: center;
       transition: all .5s;
       margin-top: 70px;
@@ -314,9 +315,11 @@ nav ul li a{
   }
   nav ul li a{
       font-size: 15px;
+      color: white;
   }
   #check:checked ~ ul{
-      left: 0;
+      /* left: 0; */
+      display: block;
      
       
    
